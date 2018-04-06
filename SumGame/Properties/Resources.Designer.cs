@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SumGame.Properties
+namespace GuessGame.Properties
 {
 
 
