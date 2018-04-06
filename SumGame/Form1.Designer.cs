@@ -56,13 +56,14 @@
             // 
             // buttonGuess
             // 
+            this.buttonGuess.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonGuess.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonGuess.Location = new System.Drawing.Point(296, 254);
             this.buttonGuess.Name = "buttonGuess";
             this.buttonGuess.Size = new System.Drawing.Size(91, 58);
             this.buttonGuess.TabIndex = 2;
             this.buttonGuess.Text = "Guess It !";
-            this.buttonGuess.UseVisualStyleBackColor = true;
+            this.buttonGuess.UseVisualStyleBackColor = false;
             this.buttonGuess.Click += new System.EventHandler(this.buttonGuess_Click);
             // 
             // buttonCreateRandomValue
@@ -100,7 +101,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Sum Game";
+            this.Text = "Guess Game";
             this.ResumeLayout(false);
             this.PerformLayout();
 
